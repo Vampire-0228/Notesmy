@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Add Notes..."
+        android:textColor="@color/Deep_blue"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <EditText
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:id="@+id/edTitle"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/edit_shape"
+        android:elevation="2dp"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="@color/Deep_blue"
+        android:textColorHint="@color/Deep_blue" />
+
+    <EditText
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:foreground="?attr/selectableItemBackground"
+        android:id="@+id/edDesc"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/edit_shape"
+        android:elevation="2dp"
+        android:gravity="top"
+        android:hint="Description......"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/Deep_blue"
+        android:textColorHint="@color/Deep_blue" />
+    
+    
+    
+    
+    <Button
+        android:id="@+id/addbutton"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:elevation="2dp"
+        android:text="Add Notes..."
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/edit_shape"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"/>
+    
+    
+    
+    
+    
+    
+    
+
+
+</LinearLayout>
