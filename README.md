@@ -10,3 +10,5 @@ NotesMy is a simple, fast, and effective note-taking app with essential features
 
   4️⃣ Notes are displayed in a list using RecyclerView.
 
+# Download
+
