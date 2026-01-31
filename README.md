@@ -3,7 +3,10 @@ NotesMy is a simple, fast, and effective note-taking app with essential features
 
 # 🎯 How It Works?
   1️⃣ User clicks the "Add" button (Floating Action Button).
+
   2️⃣ Enters a note title and description in the input fields.
+
   3️⃣ Saves the note, which is stored in the SQLite database.
+
   4️⃣ Notes are displayed in a list using RecyclerView.
 
