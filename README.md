@@ -12,3 +12,5 @@ NotesMy is a simple, fast, and effective note-taking app with essential features
 
 # Download
 
+
+
